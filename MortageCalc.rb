@@ -43,7 +43,7 @@ end
 
 def find_monthly_payment(loan_amount, monthly_interest_rate, loan_months)
 monthly_payment = loan_amount * (monthly_interest_rate / (1 - (1 + monthly_interest_rate) ** (-loan_months)))
-puts "Your monthy payment is $" + "#{monthly_payment.round(2)}"
+puts "Your monthly payment is $" + "#{monthly_payment.round(2)}"
 end
 
 def perform_calculations
